@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/',methods = ['GET','POST'])
 def index():
-    return "Flask app is running locally"
+    return "Flask app is running locally - done some changesgit "
 
 port = int(os.getenv("PORT",5000))
 
